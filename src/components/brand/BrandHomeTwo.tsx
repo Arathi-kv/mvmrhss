@@ -5,7 +5,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
-import brand_img_1 from "@/assets/img/brand/brand-1-1.png";
+
 import brand_img_2 from "@/assets/img/brand/brand-1-2.png";
 import brand_img_3 from "@/assets/img/brand/brand-1-3.png";
 import brand_img_4 from "@/assets/img/brand/brand-1-4.png";
