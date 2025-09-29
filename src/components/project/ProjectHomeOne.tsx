@@ -45,8 +45,8 @@ const ProjectHomeOne = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="it-project__section-title text-center mb-45">
-                <span className="it-section-subtitle">OUR SHOWCASE</span>
-                <h4 className="it-section-title">Check Our Latest Projects</h4>
+                <span className="it-section-subtitle">Our Facilities</span>
+                <h4 className="it-section-title">Explore our modern and inspiring facilities</h4>
               </div>
             </div>
           </div>
@@ -56,13 +56,27 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big.jpg" alt="rk-theme" />
+                    <img src="assets/img/facilities/comlabImg.jpg" alt="facilities" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Digital Solution</h4></Link>
-                    <span>idea</span>
+                    <Link href="/project-details"><h4 className="it-panel-title-2">Computer Lab</h4></Link>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-custom">
+              <div className="it-panel-item-box p-relative">
+                <div className="it-panel-item">
+                  <div className="it-panel-content">
+                     <img src="assets/img/facilities/libraryimg.jpg" alt="facilities" />
+                  </div>
+                </div>
+                <div className="it-panel-item-2">
+                  <div className="it-panel-content-2">
+                    <Link href="/project-details"><h4 className="it-panel-title-2">Library</h4></Link>
                   </div>
                 </div>
               </div>
@@ -72,13 +86,12 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big-4.jpg" alt="rk-theme" />
+                   <img src="assets/img/facilities/sciencelabimg.jpg" alt="facilities" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Digital Solution</h4></Link>
-                    <span>idea</span>
+                    <Link href="/project-details"><h4 className="it-panel-title-2">Science Lab</h4></Link>
                   </div>
                 </div>
               </div>
@@ -88,29 +101,12 @@ const ProjectHomeOne = () => {
               <div className="it-panel-item-box p-relative">
                 <div className="it-panel-item">
                   <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big-2.jpg" alt="rk-theme" />
+                   <img src="assets/img/facilities/prayerimg.jpg" alt="facilities" />
                   </div>
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Digital Solution</h4></Link>
-                    <span>idea</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-custom">
-              <div className="it-panel-item-box p-relative">
-                <div className="it-panel-item">
-                  <div className="it-panel-content">
-                    <img src="assets/img/project/prroject-big-3.jpg" alt="rk-theme" />
-                  </div>
-                </div>
-                <div className="it-panel-item-2">
-                  <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Digital Solution</h4></Link>
-                    <span>idea</span>
+                    <Link href="/project-details"><h4 className="it-panel-title-2">PRAYER HALL / MASJID</h4></Link>
                   </div>
                 </div>
               </div>
