@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TeamDetails = () => {
+const Admission = () => {
   return (
     <>
       <div className="it-team-details__area pt-120">
@@ -11,7 +11,7 @@ const TeamDetails = () => {
               <div className="col-xl-7 col-lg-7">
                 <div className="it-team-details__item p-relative text-end">
                   <div className="it-team-details__thumb">
-                    <img src="assets/img/slider/slider3.jpg" alt="rk-theme" />
+                    <img src="/assets/img/slider/slider3.jpg" alt="rk-theme" />
                   </div>
                 </div>
               </div>
@@ -26,7 +26,7 @@ const TeamDetails = () => {
                       <strong>Phone: </strong>
                       <a href="tel:+919895413809">9895413809</a>
                     </span>
-                     <span>
+                    <span>
                       <strong>Phone: </strong>
                       <a href="tel:+919567871424">9567871424, 7593078368</a>
                     </span>
@@ -34,7 +34,6 @@ const TeamDetails = () => {
                       <strong>Email: </strong>
                       <a href="mailto:info@mvmrhss.com">info@mvmrhss.com</a>
                     </span>
-                    
                   </div>
                   <div className="it-team-details__social">
                     <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
@@ -59,7 +58,9 @@ const TeamDetails = () => {
                   <li>All admissions are provisional but principal has a right to cancel any admission at any time.</li>
                   <li>Higher secondary admission will start only after publishing SSLC result as per government notification.</li>
                 </ul>
-                <p>കുട്ടികൾ സ്വയം പര്യാപ്തരായി വെല്ലുവിളികളെ അതിജീവിച്ചു വളരാൻ നൂതന കാലത്തിന്റെ വിദ്യാഭ്യാസം ഇനി സ്കൂൾ ഒന്നിച്ച് നിങ്ങളുടെ പഠന മുറിയിലേക്ക്.</p>
+                <p>
+                  കുട്ടികൾ സ്വയം പര്യാപ്തരായി വെല്ലുവിളികളെ അതിജീവിച്ചു വളരാൻ നൂതന കാലത്തിന്റെ വിദ്യാഭ്യാസം ഇനി സ്കൂൾ ഒന്നിച്ച് നിങ്ങളുടെ പഠന മുറിയിലേക്ക്.
+                </p>
 
                 <h4 className="postbox__details-title">Special Features</h4>
                 <ul>
@@ -75,12 +76,10 @@ const TeamDetails = () => {
               </div>
             </div>
           </div>
-
-          {/* Optional skills/progress section can remain if needed */}
         </div>
       </div>
     </>
   );
 };
 
-export default TeamDetails;
+export default Admission;
