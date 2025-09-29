@@ -1,8 +1,6 @@
 
 
 import "../styles/index.scss";
-
-
 import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'M.V.M Higher Secondary School',
