@@ -1,18 +1,16 @@
-
-
+import React from 'react';
 import Breadcrumb from '@/components/common/Breadcrumb';
 import Project from '@/components/project/Project';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Wrapper from '@/layouts/Wrapper';
-import React from 'react';
-
+import CtaHomeOne from '@/components/cta/CtaHomeOne'; // <-- added import
 
 export const metadata = {
   title: "Project Tecch - Technology & IT Solutions Next js Template",
 };
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <HeaderFour />
@@ -26,4 +24,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
