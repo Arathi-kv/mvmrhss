@@ -3,26 +3,25 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
-import Admission from '@/components/admission/admission';
+import Admission from '@/components/admission/Admission';
 import AdmissionForm from '@/components/form/AdmissionForm';
-
 
 export const metadata = {
   title: "Admission",
 };
 
-const index = () => {
+const AdmissionPage = () => {
   return (
     <Wrapper>
       <HeaderFour />
       <main>
         <Breadcrumb title="Admission" subtitle="Admission" />
-      <Admission />
-      <AdmissionForm />
-        <FooterOne />
+        <Admission />
+        <AdmissionForm />
       </main>
+      <FooterOne />
     </Wrapper>
   );
 };
 
-export default index;
+export default AdmissionPage;
