@@ -1,7 +1,7 @@
 
 
 import Breadcrumb from '@/components/common/Breadcrumb';
-import Project from '@/components/project/Project';
+import ProductDetails from '@/components/details/ProductDetails';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Wrapper from '@/layouts/Wrapper';
@@ -9,7 +9,7 @@ import React from 'react';
 
 
 export const metadata = {
-  title: "Project Tecch - Technology & IT Solutions Next js Template",
+  title: "Project Details Tecch - Technology & IT Solutions Next js Template",
 };
 
 const index = () => {
@@ -17,11 +17,11 @@ const index = () => {
     <Wrapper>
       <HeaderFour />
       <main>
-        <Breadcrumb title="Our Project" subtitle="Our Project" />
-        <Project />
-        <CtaHomeOne style_2={true} />
+        <Breadcrumb title="Project Details" subtitle="Project Details" />
+        <ProductDetails />      
       </main>
       <FooterOne />
+      
     </Wrapper>
   );
 };

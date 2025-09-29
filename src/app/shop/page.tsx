@@ -2,14 +2,17 @@
 
 import React from 'react';
 import Wrapper from '@/layouts/Wrapper';
-import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
+import FooterOne from '@/layouts/footers/FooterOne';
+import Product from '@/components/shop/Product';
+
 
 
 export const metadata = {
-  title: "Faq Tecch - Technology & IT Solutions Next js Template",
+  title: "Shop Tecch - Technology & IT Solutions Next js Template",
 };
+
 
 
 const index = () => {
@@ -17,7 +20,8 @@ const index = () => {
     <Wrapper>
       <HeaderFour />
       <main>
-        <Breadcrumb title="Faq" subtitle="Faq" />
+        <Breadcrumb title="Shop" subtitle="Shop" />
+        <Product />
       </main>
       <FooterOne />
     </Wrapper>

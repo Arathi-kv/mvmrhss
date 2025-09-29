@@ -1,15 +1,14 @@
 
 
+import BlogSidebar from '@/components/blog-sidebar/BlogSidebar';
 import Breadcrumb from '@/components/common/Breadcrumb';
-import Project from '@/components/project/Project';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Wrapper from '@/layouts/Wrapper';
 import React from 'react';
 
-
 export const metadata = {
-  title: "Project Tecch - Technology & IT Solutions Next js Template",
+  title: "Blog Sidebar Tecch - Technology & IT Solutions Next js Template",
 };
 
 const index = () => {
@@ -17,11 +16,10 @@ const index = () => {
     <Wrapper>
       <HeaderFour />
       <main>
-        <Breadcrumb title="Our Project" subtitle="Our Project" />
-        <Project />
-        <CtaHomeOne style_2={true} />
+        <Breadcrumb title="Blog Sidebar" subtitle="Blog Sidebar" />
+        <BlogSidebar />
       </main>
-      <FooterOne />
+      <FooterOne />      
     </Wrapper>
   );
 };

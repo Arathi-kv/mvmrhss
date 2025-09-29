@@ -5,10 +5,10 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
-
+import ServiceDetails from '@/components/details/ServiceDetails';
 
 export const metadata = {
-  title: "Faq Tecch - Technology & IT Solutions Next js Template",
+  title: "Service Details Tecch - Technology & IT Solutions Next js Template",
 };
 
 
@@ -17,7 +17,8 @@ const index = () => {
     <Wrapper>
       <HeaderFour />
       <main>
-        <Breadcrumb title="Faq" subtitle="Faq" />
+        <Breadcrumb title="Service Details" subtitle="Service Details" />
+        <ServiceDetails />
       </main>
       <FooterOne />
     </Wrapper>

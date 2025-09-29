@@ -1,25 +1,24 @@
 
 
 import Breadcrumb from '@/components/common/Breadcrumb';
-import Project from '@/components/project/Project';
+import BlogDetails from '@/components/details/BlogDetails';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Wrapper from '@/layouts/Wrapper';
 import React from 'react';
 
-
 export const metadata = {
-  title: "Project Tecch - Technology & IT Solutions Next js Template",
+  title: "Blog Details Tecch - Technology & IT Solutions Next js Template",
 };
+
 
 const index = () => {
   return (
     <Wrapper>
       <HeaderFour />
       <main>
-        <Breadcrumb title="Our Project" subtitle="Our Project" />
-        <Project />
-        <CtaHomeOne style_2={true} />
+        <Breadcrumb title="Blog Details" subtitle="Blog Details" />
+        <BlogDetails />
       </main>
       <FooterOne />
     </Wrapper>

@@ -3,7 +3,7 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
-import Curriculum from '@/components/curriculum/curriculum';
+import Curriculum from '@/components/Curriculum/Curriculum';
 
 export const metadata = {
   title: "Curriculum",
