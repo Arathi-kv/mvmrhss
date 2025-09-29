@@ -4,13 +4,10 @@ import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
 import Admission from '@/components/admission/Admission';
-import AdmissionForm from '@/components/form/AdmissionForm';
+import Admissionform from '@/components/form/Admissionform';
 
 
-
-export const metadata = {
-  title: "Admission",
-};
+export const metadata = { title: "Admission" };
 
 const AdmissionPage = () => {
   return (
@@ -19,7 +16,7 @@ const AdmissionPage = () => {
       <main>
         <Breadcrumb title="Admission" subtitle="Admission" />
         <Admission />
-        <AdmissionForm />
+        <Admissionform />
       </main>
       <FooterOne />
     </Wrapper>

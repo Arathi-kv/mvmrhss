@@ -5,23 +5,19 @@ import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
 import Curriculum from '@/components/curriculum/Curriculum';
 
-export const metadata = {
-  title: "Curriculum",
-};
+export const metadata = { title: "Curriculum" };
 
-const index = () => {
+const CurriculumPage = () => {
   return (
     <Wrapper>
       <HeaderFour />
       <main>
         <Breadcrumb title="Curriculum" subtitle="Curriculum" />
-        
-       <Curriculum  />
-        
-        <FooterOne />
+        <Curriculum />
       </main>
+      <FooterOne />
     </Wrapper>
   );
 };
 
-export default index;
+export default CurriculumPage;

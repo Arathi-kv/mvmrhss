@@ -1,11 +1,11 @@
-import React from "react";
-import Wrapper from "@/layouts/Wrapper";
-import FooterOne from "@/layouts/footers/FooterOne";
-import HeaderThree from "@/layouts/headers/HeaderThree";
-import BrandHomeOne from "@/components/brand/BrandHomeOne";
-import HeroHomeThree from "@/components/hero/HeroHomeThree"; // <-- make sure this path matches your structure
+import React from 'react';
+import Wrapper from '@/layouts/Wrapper';
+import FooterOne from '@/layouts/footers/FooterOne';
+import HeaderThree from '@/layouts/headers/HeaderThree';
+import HeroHomeThree from '@/components/hero/HeroHomeThree';
+import BrandHomeOne from '@/components/brand/BrandHomeOne';
 
-const Index = () => {
+const HomeThreePage = () => {
   return (
     <Wrapper>
       <HeaderThree />
@@ -18,4 +18,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default HomeThreePage;
