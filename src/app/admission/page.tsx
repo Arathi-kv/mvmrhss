@@ -6,6 +6,8 @@ import Breadcrumb from '@/components/common/Breadcrumb';
 import Admission from '@/components/admission/Admission';
 import AdmissionForm from '@/components/form/AdmissionForm';
 
+
+
 export const metadata = {
   title: "Admission",
 };
