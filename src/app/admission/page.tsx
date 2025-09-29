@@ -3,7 +3,7 @@ import Wrapper from '@/layouts/Wrapper';
 import FooterOne from '@/layouts/footers/FooterOne';
 import HeaderFour from '@/layouts/headers/HeaderFour';
 import Breadcrumb from '@/components/common/Breadcrumb';
-import Admission from '@/components/Admission/Admission';
+import Admission from '@/components/admission/Admission';
 import AdmissionForm from '@/components/form/AdmissionForm';
 
 
