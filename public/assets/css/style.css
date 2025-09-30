@@ -7573,14 +7573,14 @@ input[type=color] {
 }
 .it-contact-2__color-2 .it-contact-2__input input {
   border: 1px solid transparent;
-  background-color: var(--it-common-white);
+  background-color: var(--it-common-black);
 }
 .it-contact-2__color-2 .it-contact-2__input input:focus {
   border: 1px solid var(--it-theme-1);
 }
 .it-contact-2__color-2 .it-contact-2__input textarea {
   border: 1px solid transparent;
-  background-color: var(--it-common-white);
+  background-color: var(--it-common-black);
 }
 .it-contact-2__color-2 .it-contact-2__input textarea:focus {
   border: 1px solid var(--it-theme-1);
@@ -16031,5 +16031,4 @@ p.checkout-coupon input[type=text]:focus {
 .it-copyright__black-bg .it-copyright__text span b {
   color: var(--it-theme-3);
 }
-
 
