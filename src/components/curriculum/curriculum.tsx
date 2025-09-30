@@ -32,7 +32,7 @@ const BlogHomeOne = () => {
                   <div className="it-blog__meta">
                     <span>Curriculum</span>
                   </div>
-                  <h4 className="it-blog__title"><Link href="/blog-details">K.G Section</Link></h4>
+                  <h4 className="it-blog__title">K.G Section</h4>
                   <p>K.G section has two levels, the L.K.G and U.K.G. children are usually admitted in the L.K.G. K.G section conducts various activities separately for K.G students.</p>
                 </div>
               </div>
@@ -50,7 +50,7 @@ const BlogHomeOne = () => {
                   <div className="it-blog__meta">
                     <span>Curriculum</span>
                   </div>
-                  <h4 className="it-blog__title"><Link href="/blog-details">Primary Section (1- 4) L.P</Link></h4>
+                  <h4 className="it-blog__title">Primary Section (1- 4) L.P</h4>
                  <p>English, Arabic, Malayalam, Hindi, Mathematics, Environmental studies, Computer science, Physical education, Arts education and Moral Studies.</p>
                 </div>
               </div>
@@ -68,7 +68,7 @@ const BlogHomeOne = () => {
                   <div className="it-blog__meta">
                     <span>Curriculum</span>
                   </div>
-                  <h4 className="it-blog__title"><Link href="/blog-details">Upper Primary (5-7) (UP)</Link></h4>
+                  <h4 className="it-blog__title">Upper Primary (5-7) (UP)</h4>
                   <p>English, Arabic, Malayalam, Hindi, Mathematics, General Science, Social Science, Computer Science, Physical Education, Art education and moral education.</p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const BlogHomeOne = () => {
                   <div className="it-blog__meta">
                     <span>Curriculum</span>
                   </div>
-                  <h4 className="it-blog__title"><Link href="/blog-details">High School Section</Link></h4>
+                  <h4 className="it-blog__title">High School Section</h4>
                   <p>English, Arabic, Hindi, Malayalam, Mathematics, Science, Social Science (Computer Science (IT), Physical Education, Art education, Moral education.</p>
                 </div>
               </div>
@@ -102,7 +102,7 @@ const BlogHomeOne = () => {
                   <div className="it-blog__meta">
                     <span>Curriculum</span>
                   </div>
-                  <h4 className="it-blog__title"><Link href="/blog-details">Higher Secondary Section</Link></h4>
+                  <h4 className="it-blog__title">Higher Secondary Section</h4>
                   <p>Under Higher Secondary section course offered two stream.</p>
                   <p>Science stream:<br></br>
                     English, Arabic, Malayalam, Hindi, Physics, Chemistry, Biology, Mathematics.</p>
@@ -122,7 +122,7 @@ const BlogHomeOne = () => {
                   <div className="it-blog__meta">
                     <span>Curriculum</span>
                   </div>
-                  <h4 className="it-blog__title"><Link href="/blog-details">Moral Education / Islamic Education</Link></h4>
+                  <h4 className="it-blog__title">Moral Education / Islamic Education</h4>
                  <p>M.V.M.R.H.S.S provide Islamic education (Madrassa) along with school education under the supervision and guidance of eminent scholars</p>
                 </div>
               </div>
