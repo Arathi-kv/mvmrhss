@@ -61,7 +61,7 @@ const ProjectHomeOne = () => {
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Computer Lab</h4></Link>
+                    <Link href="/facilities"><h4 className="it-panel-title-2">Computer Lab</h4></Link>
                     </div>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const ProjectHomeOne = () => {
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Library</h4></Link>
+                    <Link href="/facilities"><h4 className="it-panel-title-2">Library</h4></Link>
                   </div>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const ProjectHomeOne = () => {
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">Science Lab</h4></Link>
+                    <Link href="/facilities"><h4 className="it-panel-title-2">Science Lab</h4></Link>
                   </div>
                 </div>
               </div>
@@ -106,7 +106,7 @@ const ProjectHomeOne = () => {
                 </div>
                 <div className="it-panel-item-2">
                   <div className="it-panel-content-2">
-                    <Link href="/project-details"><h4 className="it-panel-title-2">PRAYER HALL / MASJID</h4></Link>
+                    <Link href="/facilities"><h4 className="it-panel-title-2">PRAYER HALL / MASJID</h4></Link>
                   </div>
                 </div>
               </div>

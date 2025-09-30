@@ -10389,7 +10389,7 @@ p.checkout-coupon input[type=text]:focus {
   position: relative;
 }
 .it-team-4__thumb img {
-  width: 100%;
+  width:80%;
   transition: 0.9s;
 }
 .it-team-4__yellow-color .it-team-4__social-box span {
@@ -16032,15 +16032,4 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--it-theme-3);
 }
 
-/*# sourceMappingURL=style.css.map */
-.it-header__customize .it-header__logo::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100% + 25px);
-    background-color: var(--it-theme-1)
-    transform: skew(0deg); !important;
-}
 

@@ -26,7 +26,7 @@ const ProjectHomeTwo = () => {
                 <div className="it-project-4__item">
                   <img src="assets/img/project/project-4-1.jpg" alt="rk-theme" />
                   <div className="it-project-4__text text-center">
-                    <Link href="/project-details"><i
+                    <Link href="/facilities"><i
                       className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                     <span>IDEA</span>
                     <h6>Digital Solution</h6>
@@ -38,7 +38,7 @@ const ProjectHomeTwo = () => {
                 <div className="it-project-4__item">
                   <img src="assets/img/project/project-4-2.jpg" alt="rk-theme" />
                   <div className="it-project-4__text text-center">
-                    <Link href="/project-details"><i
+                    <Link href="/facilities"><i
                       className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                     <span>IDEA</span>
                     <h6>Digital Solution</h6>
@@ -50,7 +50,7 @@ const ProjectHomeTwo = () => {
                 <div className="it-project-4__item">
                   <img src="assets/img/project/project-4-3.jpg" alt="rk-theme" />
                   <div className="it-project-4__text text-center">
-                    <Link href="/project-details"><i
+                    <Link href="/facilities"><i
                       className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                     <span>IDEA</span>
                     <h6>Digital Solution</h6>
@@ -62,7 +62,7 @@ const ProjectHomeTwo = () => {
                 <div className="it-project-4__item">
                   <img src="assets/img/project/project-4-4.jpg" alt="rk-theme" />
                   <div className="it-project-4__text text-center">
-                    <Link href="/project-details"><i
+                    <Link href="/facilities"><i
                       className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                     <span>IDEA</span>
                     <h6>Digital Solution</h6>

@@ -13,7 +13,7 @@ const Project = () => {
               <div className="it-project-5__item fix">
                 <img src="assets/img/project/project-3-1.jpg" alt="rk-theme" />
                 <div className="it-project-5__text">
-                  <Link href="/project-details"><i
+                  <Link href="/facilities"><i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                   <span>IDEA</span>
                   <h6>Digital Solution</h6>
@@ -27,7 +27,7 @@ const Project = () => {
               <div className="it-project-5__item fix">
                 <img src="assets/img/project/project-3-2.jpg" alt="rk-theme" />
                 <div className="it-project-5__text">
-                  <Link href="/project-details"><i
+                  <Link href="/facilities"><i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                   <span>IDEA</span>
                   <h6>Digital Solution</h6>
@@ -41,7 +41,7 @@ const Project = () => {
               <div className="it-project-5__item fix">
                 <img src="assets/img/project/project-3-3.jpg" alt="rk-theme" />
                 <div className="it-project-5__text">
-                  <Link href="/project-details"><i
+                  <Link href="/facilities"><i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                   <span>IDEA</span>
                   <h6>Digital Solution</h6>
@@ -55,7 +55,7 @@ const Project = () => {
               <div className="it-project-5__item fix">
                 <img src="assets/img/project/project-4-1.jpg" alt="rk-theme" />
                 <div className="it-project-5__text">
-                  <Link href="/project-details"><i
+                  <Link href="/facilities"><i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                   <span>IDEA</span>
                   <h6>Digital Solution</h6>
@@ -69,7 +69,7 @@ const Project = () => {
               <div className="it-project-5__item fix">
                 <img src="assets/img/project/project-4-2.jpg" alt="rk-theme" />
                 <div className="it-project-5__text">
-                  <Link href="/project-details"><i
+                  <Link href="/facilities"><i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                   <span>IDEA</span>
                   <h6>Digital Solution</h6>
@@ -83,7 +83,7 @@ const Project = () => {
               <div className="it-project-5__item fix">
                 <img src="assets/img/project/project-4-3.jpg" alt="rk-theme" />
                 <div className="it-project-5__text">
-                  <Link href="/project-details"><i
+                  <Link href="/facilities"><i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                   <span>IDEA</span>
                   <h6>Digital Solution</h6>
