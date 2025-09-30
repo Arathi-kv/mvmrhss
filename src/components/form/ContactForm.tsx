@@ -36,33 +36,57 @@ const ContactForm = () => {
                 <h5 className="it-contact-2__title-sm text-black">Have Any Question?</h5>
                 <p>Your email address will not be published. Required fields are marked *</p>
               </div>
-              <div className="it-contact-2__form-box">
-                <form ref={formRef} onSubmit={sendEmail}>
-                  <div className="row">
-                    <div className="col-xl-6 col-lg-6 col-12">
-                      <div className="it-contact-2__input">
-                        <input type="text" name="name" placeholder="Your Name*" required />
-                      </div>
-                    </div>
-                    <div className="col-xl-6 col-lg-6 col-12">
-                      <div className="it-contact-2__input">
-                        <input type="email" name="email" placeholder="Email Address*" required />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="it-contact-2__input">
-                        <input type="text" name="website" placeholder="Website*" />
-                      </div>
-                    </div>
-                    <div className="col-12">
-                      <div className="it-contact-2__input">
-                        <textarea name="message" placeholder="Write Your Message*" required></textarea>
-                      </div>
+             <div className="it-contact-2__form-box">
+              <form ref={formRef} onSubmit={sendEmail}>
+                <div className="row">
+                  <div className="col-xl-6 col-lg-6 col-12">
+                    <div className="it-contact-2__input">
+                      <input
+                        type="text"
+                        name="name"
+                        placeholder="Your Name*"
+                        required
+                        style={{ color: "black" }}
+                      />
                     </div>
                   </div>
-                  <button type="submit" className="it-btn hover-2"><span>Send Your Message</span></button>
-                </form>
-              </div>
+                  <div className="col-xl-6 col-lg-6 col-12">
+                    <div className="it-contact-2__input">
+                      <input
+                        type="email"
+                        name="email"
+                        placeholder="Email Address*"
+                        required
+                        style={{ color: "black" }}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-12">
+                    <div className="it-contact-2__input">
+                      <input
+                        type="text"
+                        name="website"
+                        placeholder="Website*"
+                        style={{ color: "black" }}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-12">
+                    <div className="it-contact-2__input">
+                      <textarea
+                        name="message"
+                        placeholder="Write Your Message*"
+                        required
+                        style={{ color: "black" }}
+                      ></textarea>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" className="it-btn hover-2">
+                  <span>Send Your Message</span>
+                </button>
+              </form>
+            </div>
             </div>
           </div>
         </div>
