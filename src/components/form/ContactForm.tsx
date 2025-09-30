@@ -61,21 +61,23 @@ const ContactForm = () => {
                       />
                     </div>
                   </div>
-                  <div className="col-12">
-                    <div className="it-contact-2__input">
-                      <input
-                        type="text"
-                        name="website"
-                        placeholder="Website*"
-                        style={{ color: "black" }}
-                      />
-                    </div>
-                  </div>
+                 <div className="col-12">
+                <div className="it-contact-2__input">
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number*"
+                    required
+                    style={{ color: "black" }}
+                  />
+                </div>
+              </div>
+
                   <div className="col-12">
                     <div className="it-contact-2__input">
                       <textarea
                         name="message"
-                        placeholder="Write Your Message*"
+                        placeholder="Write Your Message"
                         required
                         style={{ color: "black" }}
                       ></textarea>
