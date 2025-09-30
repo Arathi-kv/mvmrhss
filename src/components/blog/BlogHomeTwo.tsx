@@ -38,10 +38,10 @@ const BlogHomeTwo = () => {
                   <div className="it-blog-4__meta">
                     <span>March 23, 2023 _ Development</span>
                   </div>
-                  <Link href="/blog-details">
+                  <Link href="#">
                     <h4 className="it-blog-4__title">A Simple Social Media <br />Marketing List</h4>
                   </Link>
-                  <Link href="/blog-details">Read More<i
+                  <Link href="#">Read More<i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                 </div>
               </div>
@@ -65,11 +65,11 @@ const BlogHomeTwo = () => {
                   <div className="it-blog-4__meta">
                     <span>By admin _ Solution</span>
                   </div>
-                  <Link href="/blog-details">
+                  <Link href="#">
                     <h4 className="it-blog-4__title">Easy to Use Software New
                       Innovation</h4>
                   </Link>
-                  <Link href="/blog-details">Read More<i
+                  <Link href="#">Read More<i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const BlogHomeTwo = () => {
                   <div className="it-blog-4__meta">
                     <span>March 23, 2023 _ Development</span>
                   </div>
-                  <Link href="/blog-details">
+                  <Link href="#">
                     <h4 className="it-blog-4__title">What is Holding Back the IT Solution</h4>
                   </Link>
-                  <Link href="/blog-details">Read More<i
+                  <Link href="#">Read More<i
                     className="fa-sharp fa-regular fa-arrow-right"></i></Link>
                 </div>
               </div>

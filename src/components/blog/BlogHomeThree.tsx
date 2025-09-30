@@ -21,7 +21,7 @@ const BlogHomeThree = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 mb-30 wow itfadeUp" data-wow-duration=".9s"
                 data-wow-delay=".3s">
                 <div className="it-blog-3__item z-index space it-blog-3__item-color">
-                  <Link href="/blog-details">
+                  <Link href="#">
                     <div className="it-blog-3__thumb fix">
                       <img className="w-100" src="assets/img/blog/blog-2-1.jpg" alt="rk-theme" />
                     </div>
@@ -30,7 +30,7 @@ const BlogHomeThree = () => {
                     <div className="it-blog-3__content">
                       <span className="it-blog-3__meta">By admin _ <strong
                         className="color">Development</strong></span>
-                      <Link href="/blog-details">
+                      <Link href="#">
                         <h5 className="it-blog-3__title space">Does My Website Need
                           Any Blog?</h5>
                       </Link>
@@ -46,7 +46,7 @@ const BlogHomeThree = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 mb-30 wow itfadeUp" data-wow-duration=".9s"
                 data-wow-delay=".5s">
                 <div className="it-blog-3__item z-index space it-blog-2__item-color">
-                  <Link href="/blog-details">
+                  <Link href="#">
                     <div className="it-blog-3__thumb fix">
                       <img className="w-100" src="assets/img/blog/blog-2-3.jpg" alt="rk-theme" />
                     </div>
@@ -55,7 +55,7 @@ const BlogHomeThree = () => {
                     <div className="it-blog-3__content">
                       <span className="it-blog-3__meta">By admin _ <strong
                         className="color">Development</strong></span>
-                      <Link href="/blog-details">
+                      <Link href="#">
                         <h5 className="it-blog-3__title space">A Simple Social Media Marketing List</h5>
                       </Link>
                       <Link href="/blog-details"
@@ -70,7 +70,7 @@ const BlogHomeThree = () => {
               <div className="col-xl-4 col-lg-4 col-md-6 mb-30 wow itfadeUp" data-wow-duration=".9s"
                 data-wow-delay=".7s">
                 <div className="it-blog-3__item z-index space it-blog-2__item-color">
-                  <Link href="/blog-details">
+                  <Link href="#">
                     <div className="it-blog-3__thumb fix">
                       <img className="w-100" src="assets/img/blog/blog-2-2.jpg" alt="rk-theme" />
                     </div>
@@ -79,7 +79,7 @@ const BlogHomeThree = () => {
                     <div className="it-blog-3__content">
                       <span className="it-blog-3__meta">By admin _ <strong
                         className="color">Development</strong></span>
-                      <Link href="/blog-details">
+                      <Link href="#">
                         <h5 className="it-blog-3__title space">What is Holding Back The IT Solution</h5>
                       </Link>
                       <Link href="/blog-details"

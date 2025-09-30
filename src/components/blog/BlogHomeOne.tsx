@@ -28,7 +28,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/blog/blog-1-1.png" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i
+                      <Link href="#"><i
                         className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ const BlogHomeOne = () => {
                     <span>March 23, 2023 _ Development</span>
                   </div>
                   <h4 className="it-blog__title"><Link href="/blog-details">A Simple Social Media Marketing List</Link></h4>
-                  <Link href="/blog-details">Read More</Link>
+                  <Link href="#">Read More</Link>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/blog/blog-1-2.png" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">
@@ -55,7 +55,7 @@ const BlogHomeOne = () => {
                     <span>March 23, 2023 _ Development</span>
                   </div>
                   <h4 className="it-blog__title"><Link href="/blog-details">Does My Website Need Any Blog?</Link></h4>
-                  <Link href="/blog-details">Read More</Link>
+                  <Link href="#">Read More</Link>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/blog/blog-1-3.png" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">
@@ -73,7 +73,7 @@ const BlogHomeOne = () => {
                     <span>March 23, 2023 _ Development</span>
                   </div>
                   <h4 className="it-blog__title"><Link href="/blog-details">What is Holding Back The IT Solution</Link></h4>
-                  <Link href="/blog-details">Read More</Link>
+                  <Link href="#">Read More</Link>
                 </div>
               </div>
             </div>

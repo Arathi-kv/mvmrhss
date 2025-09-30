@@ -24,7 +24,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/curriculum/lkg.jpg" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i
+                      <Link href="#"><i
                         className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/curriculum/lp.jpg" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">
@@ -61,7 +61,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/curriculum/up.jpg" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">
@@ -78,7 +78,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/curriculum/highSchool.jpg" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">
@@ -95,7 +95,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/curriculum/highSection.jpg" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">
@@ -115,7 +115,7 @@ const BlogHomeOne = () => {
                 <div className="it-blog__thumb p-relative">
                   <img className="w-100" src="assets/img/curriculum/moralEdu.jpg" alt="rk-theme" />
                     <div className="it-blog__icon">
-                      <Link href="/blog-details"><i className="flaticon-up-right-arrow"></i></Link>
+                      <Link href="#"><i className="flaticon-up-right-arrow"></i></Link>
                     </div>
                 </div>
                 <div className="it-blog__content">

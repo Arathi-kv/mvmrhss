@@ -140,11 +140,11 @@ const BlogSidebar = () => {
                     <div className="sidebar__post">
                       <div className="rc__post mb-20 d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <Link href="/blog-details"><img src="assets/img/blog/blog-details-1.jpg" alt="rk-theme" /></Link>
+                          <Link href="#"><img src="assets/img/blog/blog-details-1.jpg" alt="rk-theme" /></Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
-                            <Link href="/blog-details">Keep Your Business Safe
+                            <Link href="#">Keep Your Business Safe
                               Ensure High</Link>
                           </h3>
                           <div className="rc__meta">
@@ -154,11 +154,11 @@ const BlogSidebar = () => {
                       </div>
                       <div className="rc__post mb-20 d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <Link href="/blog-details"><img src="assets/img/blog/blog-details-1-2.jpg" alt="rk-theme" /></Link>
+                          <Link href="#"><img src="assets/img/blog/blog-details-1-2.jpg" alt="rk-theme" /></Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
-                            <Link href="/blog-details">Weve been a strategy
+                            <Link href="#">Weve been a strategy
                               thought leader for nearly</Link>
                           </h3>
                           <div className="rc__meta">
@@ -168,11 +168,11 @@ const BlogSidebar = () => {
                       </div>
                       <div className="rc__post d-flex">
                         <div className="rc__post-thumb mr-20">
-                          <Link href="/blog-details"><img src="assets/img/blog/blog-details-1-3.jpg" alt="rk-theme" /></Link>
+                          <Link href="#"><img src="assets/img/blog/blog-details-1-3.jpg" alt="rk-theme" /></Link>
                         </div>
                         <div className="rc__post-content">
                           <h3 className="rc__post-title">
-                            <Link href="/blog-details">This Weeks Top Stories
+                            <Link href="#">This Weeks Top Stories
                               About It</Link>
                           </h3>
                           <div className="rc__meta">
