@@ -2866,7 +2866,7 @@ input[type=color] {
   display: inline-block;
   font-weight: 600;
   font-size: 14px;
-  color: var(--it-common-white);
+  color: var(--it-common-black);
   text-transform: uppercase;
   padding-bottom: 13px;
 }
@@ -2879,7 +2879,7 @@ input[type=color] {
 .it-slider-title {
   font-weight: 700;
   font-size: 90px;
-  color: var(--it-common-white);
+  color: var(--it-theme-1);
   text-transform: capitalize;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1800px) {
@@ -3850,18 +3850,22 @@ input[type=color] {
 .it-slider__overlay {
   position: relative;
 }
-.it-slider__overlay::after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: "";
-  background-color: rgba(17, 18, 110, 0.021);
+
+it-slider__overlay::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgb(13 15 112 / 0%);
+    z-index: 0;
 }
+
 .it-slider__overlay.bg-color-blue::after {
-  background-color: rgba(17, 18, 110, 0.021);
+   background-color: rgb(13 15 112 / 0%);
 }
+
 .it-slider__content-wrap {
   position: relative;
   z-index: 55;
@@ -10327,9 +10331,9 @@ p.checkout-coupon input[type=text]:focus {
 }
 .it-team-4__content-wrap {
   background-color: #f3f3f3;
-  padding: 30px;
+  padding: 40px;
   padding-top: 20px;
-  margin: 0px 20px;
+  margin: 0px 0px;
   margin-top: -50px;
   position: relative;
   z-index: 222;
@@ -10338,13 +10342,13 @@ p.checkout-coupon input[type=text]:focus {
   .it-team-4__content-wrap {
     padding: 30px 20px;
     padding-top: 20px;
-    margin: 0px 15px;
+    margin: 0px 0px;
     margin-top: -50px;
   }
 }
 .it-team-4__author-name {
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 18px;
   margin-bottom: 0;
   transition: 0.3s;
 }
@@ -10356,7 +10360,7 @@ p.checkout-coupon input[type=text]:focus {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .it-team-4__author-name {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 .it-team-4__social-item {
@@ -10602,6 +10606,7 @@ p.checkout-coupon input[type=text]:focus {
   font-weight: 800;
   color: var(--it-theme-1);
 }
+
 
 /*----------------------------------------*/
 /*  24. skill css start
@@ -16032,3 +16037,45 @@ p.checkout-coupon input[type=text]:focus {
   color: var(--it-theme-3);
 }
 
+/* Modal container */
+.__react_modal_image__modal_content {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  overflow: auto !important; /* ensure image fits inside viewport */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Modal image */
+.__react_modal_image__modal_content img,
+.__react_modal_image__modal_content svg {
+  max-width: 90vw !important;
+  max-height: 90vh !important;
+  width: auto !important;   /* maintain aspect ratio */
+  height: auto !important;  /* maintain aspect ratio */
+  display: block !important;
+  margin: 0 auto !important;
+  object-fit: contain !important; /* ensures entire image fits */
+}
+
+/* Medium thumbnail image */
+.__react_modal_image__medium_img {
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  display: block;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  background-color: transparent;
+  object-fit: cover; /* maintain thumbnail proportions */
+}
+
+.__react_modal_image__modal_content {
+    position: relative;
+    height: 100%;
+    width: 30%;
+}
