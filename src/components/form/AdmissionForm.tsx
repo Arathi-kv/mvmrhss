@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 
-const AdmissionForm = () => {
+const AdmissionForm: React.FC = () => {
   const [formData, setFormData] = useState({
     studentName: "",
     guardianName: "",
@@ -11,11 +11,13 @@ const AdmissionForm = () => {
     address: "",
   });
 
-  const handleChange = (e) => {
+  // Properly type the change event
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = async (e) => {
+  // Properly type the submit event
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
@@ -25,6 +27,7 @@ const AdmissionForm = () => {
       });
 
       const result = await response.json();
+
       if (result.result === "success") {
         alert("Admission form submitted successfully!");
         setFormData({
@@ -58,7 +61,6 @@ const AdmissionForm = () => {
               <div className="it-contact-2__form-box">
                 <form onSubmit={handleSubmit}>
                   <div className="row">
-
                     <div className="col-xl-6 col-lg-6 col-md-6 col-12">
                       <div className="it-contact-2__input">
                         <input
