@@ -19,8 +19,8 @@ const index = () => {
       <HeaderFour />
       <main>
          <Breadcrumb title="Facilities" subtitle="Facilities" />
-          <Facilities />
            <FeatureHomeThree />
+          <Facilities />
       </main>
       <FooterOne />
     </Wrapper>

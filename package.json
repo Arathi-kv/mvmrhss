@@ -11,6 +11,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.3",
+    "lucide-react": "^0.544.0",
     "next": "14.2.5",
     "react": "^18",
     "react-countup": "^6.5.3",
@@ -20,7 +21,7 @@
     "react-modal-video": "^2.0.2",
     "react-range": "^1.8.14",
     "react-use": "^17.5.0",
-    "sass": "^1.77.8",
+    "sass": "^1.93.2",
     "sharp": "^0.33.4",
     "swiper": "^11.1.4",
     "wowjs": "^1.1.3"
